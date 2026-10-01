@@ -1,10 +1,11 @@
 import './App.css'
+/* import Navbar from './components/Navbar/Navbar' */
 
 function App() {
   return (
-    <div className="app">
+    <div className="text-4xl font-bold text-red-500 text-center mt-5">
       <h1>Vicente Arnal González</h1>
-      <p>Portfolio en construcción...</p>
+      <p className="text-2xl font-semibold text-neutral-200 mt-2">Portfolio en construcción...</p>
     </div>
   )
 }
