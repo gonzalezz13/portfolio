@@ -76,7 +76,7 @@ src/
 
 ## 📬 Hablemos
  
-Estoy buscando mi oportunidad en desarrollo web y me encantaría conocer tu proyecto o tu equipo.
+Estoy buscando mi primera oportunidad en desarrollo web y me encantaría poder aportar mi granito de arena en una empresa que apueste por el talento joven. Si crees que puedo encajar en tu equipo, no dudes en contactarme.
  
 - 📧 Email: vagonzalezz13@gmail.com
 - 💼 LinkedIn: [Vicente Arnal](https://www.linkedin.com/in/vicentearnal/)
@@ -84,6 +84,7 @@ Estoy buscando mi oportunidad en desarrollo web y me encantaría conocer tu proy
 ---
  
 <div align="center">
+
 Hecho con ☕ y muchas ganas de aprender por **Vicente Arnal González**
  
 </div>
