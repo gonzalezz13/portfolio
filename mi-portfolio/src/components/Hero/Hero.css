@@ -11,7 +11,7 @@
     color: var(--color-text-heading);
     margin-bottom: var(--spacing-md);
     background-color: var(--color-surface);
-    padding: 2px 8px;
+    padding: 3px 10px;
     border-radius: 2px;
 }
 
@@ -24,9 +24,12 @@
 
 .hero__badge-tag {
     background: rgba(46, 160, 67, 0.15);
-    width: 4px;
-    height: 4px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
+}
+
+.hero__badge-description {
     color: var(--color-tertiary);
 }
 
@@ -63,18 +66,19 @@
 }
 
 .hero__terminal-header {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     gap: var(--spacing-lg);
     margin-top: var(--spacing-xs);
     margin-left: var(--spacing-md);
+    margin-right: var(--spacing-md);
+    font-size: 0.8rem;
 }
 
 .hero__terminal-dots {
     display: flex;
     gap: 6px;
-    margin-right: var(--spacing-md);
 }
 
 .hero__terminal-dots span {
@@ -100,7 +104,7 @@
     font-family: var(--font-mono);
     font-size: 0.8rem;
     line-height: 1.8;
-    color: var(--color-text);
+    color: var(--color-text-heading);
 }
 
 .hero__terminal-prompt {

@@ -8,7 +8,7 @@ function Hero() {
                     <span className="hero__badge-dot"></span>
                     Valencia, España
                     <span className="hero__badge-tag"></span>
-                    Disponible para incoroporación inmediata
+                    <span className="hero__badge-description">Disponible para incorporación inmediata</span>
                 </div>
 
                 <h1 className="hero__title">Vicente Arnal González</h1>
@@ -25,7 +25,7 @@ function Hero() {
                     </div>
                     <div className="hero__terminal-body">
                         <p><span className="hero__terminal-prompt">$</span> whoami → vicente.arnal (full-stack junior)</p>
-                        <p><span className="hero__terminal-prompt">$</span> stack --primary → ["JavaScript", "PHP 8", "Laravel", "MySQL", "REST APIs"]</p>
+                        <p><span className="hero__terminal-prompt">$</span> stack --primary → ["Angular", "React", "Java", "MySQL", "REST APIs"]</p>
                         <p><span className="hero__terminal-prompt">$</span> current-target → "Aportar valor técnico a equipo ágil de desarrollo"</p>
                     </div>
                 </div>
