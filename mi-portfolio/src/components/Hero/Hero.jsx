@@ -12,7 +12,7 @@ function Hero() {
                 </div>
 
                 <h1 className="hero__title">Vicente Arnal González</h1>
-                <p className="hero__subtitle">Desarrollador Web Junior</p>
+                <p className="hero__subtitle">Desarrollador Web Full-Stack</p>
                 <p className="hero__description">Creo aplicaciones web pensadas para resolver necesidades reales, desde la idea hasta que están en línea y funcionando. Cuido que el código sea claro y que la experiencia sea sencilla para quien la use.</p>
 
                 <div className="hero__terminal">

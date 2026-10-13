@@ -1,6 +1,7 @@
 .hero {
     padding-top: var(--spacing-3xl);
     padding-bottom: var(--spacing-3xl);
+    border-bottom: 1px solid var(--color-surface-2);
 }
 
 .hero__badge {
