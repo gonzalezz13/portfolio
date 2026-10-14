@@ -2,7 +2,7 @@
 
 # 👋 Hola, soy Vicente
  
-### Desarrollador web junior · Valencia, España
+### Desarrollador Web Full Stack · Valencia, España
  
 Este es mi portfolio: el sitio donde reúno mis proyectos y cuento cómo trabajo.
 Lo construí con **React** como forma de aprender la librería haciendo algo real.
