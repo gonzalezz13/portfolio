@@ -3,6 +3,10 @@
     font-weight: 700;
 }
 
+.profile {
+    border-bottom: 1px solid var(--color-surface-2);
+}
+
 .profile__grid {
     display: grid;
     grid-template-columns: 280px 1fr;
@@ -42,15 +46,16 @@
 
 .profile__details {
     margin-top: var(--spacing-lg);
-    border-top: 1px solid var(--color-border);
+    background-color: var(--color-surface);
 }
 
 .profile__detail {
     display: flex;
     justify-content: space-between;
-    padding: var(--spacing-md) 0;
-    border-bottom: 1px solid var(--color-border);
+    padding: var(--spacing-md);
     font-size: 0.85rem;
+    border-radius: 2px;
+    border-bottom: solid 4px var(--color-bg)
 }
 
 .profile__detail-label {
