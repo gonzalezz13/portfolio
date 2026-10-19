@@ -22,6 +22,10 @@ Quería un portfolio que no fuera solo una lista de enlaces, sino una página r�
 - **Contacto**: la forma más directa de escribirme.
 - **Diseño responsive**: pensado primero para móvil y adaptado a pantallas grandes.
 
+## 📸 Preview
+
+<img width="729" height="838" alt="image" src="https://github.com/user-attachments/assets/36b488d8-722a-4759-8b2b-ed80588311fd" />
+
 ## 🛠️ Tecnologías
  
 | Área | Herramientas |
@@ -76,7 +80,7 @@ src/
 
 ## 📬 Hablemos
  
-Estoy buscando mi primera oportunidad en desarrollo web y me encantaría poder aportar mi granito de arena en una empresa que apueste por el talento joven. Si crees que puedo encajar en tu equipo, no dudes en contactarme.
+¡Gracias de corazón por visitar mi perfil! Si quieres contactar conmigo para hablar, colaborar o cualquier tipo de cosa, estaré encantado. ¡¡¡Aquí abajo tienes mis datos de contacto!!!
  
 - 📧 Email: vagonzalezz13@gmail.com
 - 💼 LinkedIn: [Vicente Arnal](https://www.linkedin.com/in/vicentearnal/)
