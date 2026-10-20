@@ -10,7 +10,7 @@ function Profile() {
                 <div className="profile__grid">
                     <div className="profile__photo-col">
                         <div className="profile__photo">
-                            <img src="public/foto-vicente.png" alt="Foto retrato Vicente" />
+                            <img src="/foto-vicente.png" alt="Foto retrato Vicente" />
                         </div>
                         <p className="profile__name">Vicente Arnal González</p>
                         <p className="profile__location">Valencia, ES</p>
