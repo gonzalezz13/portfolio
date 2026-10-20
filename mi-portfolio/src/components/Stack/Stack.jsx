@@ -21,6 +21,7 @@ function Stack() {
                             <span className="stack__tag">CSS3 Moderno</span>
                             <span className="stack__tag">Flexbox & Grid</span>
                             <span className="stack__tag">Angular</span>
+                            <span className="stack__tag">React</span>
                             <span className="stack__tag">Responsive Layouts</span>
                             <span className="stack__tag">Figma</span>
                         </div>
@@ -45,6 +46,22 @@ function Stack() {
                         <div className="stack__card-practice">
                             <h4>Aplicación práctica:</h4>
                             <p>Modelado relacional de datos normalizados, consultas indexadas, control de autenticación y validación estricta en controladores.</p>
+                        </div>
+                    </div>
+                    <div className="stack__card">
+                        <div className="stack__card-start">
+                            <div className="stack__card-icon">🫀</div>
+                            <h3 className="stack__card-title">Lenguajes</h3>
+                        </div>
+                        <div className="stack__tags">
+                            <span className="stack__tag">Java</span>
+                            <span className="stack__tag">TypeScript</span>
+                            <span className="stack__tag">JavaScript</span>
+                            <span className="stack__tag">Python</span>
+                        </div>
+                        <div className="stack__card-practice">
+                            <h4>Aplicación práctica:</h4>
+                            <p>Maquetación con frameworks cuando se requiere máxima optimización, priorizando siempre la semántica y accesibilidad.</p>
                         </div>
                     </div>
                     <div className="stack__card">
