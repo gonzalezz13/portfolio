@@ -1,3 +1,7 @@
+.stack {
+    border-bottom: 1px solid var(--color-surface-2);
+}
+
 .stack__intro {
     max-width: 500px;
     margin-bottom: var(--spacing-xl);
@@ -7,8 +11,9 @@
 .stack__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: auto;
     gap: var(--spacing-lg);
+    align-items: stretch;
 }
 
 .stack__card {
@@ -17,28 +22,30 @@
     border-radius: var(--radius-lg);
     padding: var(--spacing-lg);
     transition: border-color var(--transition);
+    display: flex;
+    flex-direction: column;
 }
 
 .stack__card-start {
     display: flex;
     align-items: center;
     gap: var(--spacing-sm);
-    margin-bottom: var(--spacing-xs);
+    margin-bottom: var(--spacing-md);
 }
 
 .stack__card:hover {
     border-color: var(--color-primary);
+    box-shadow: 0 0 20px rgba(129, 140, 248, 0.08);
 }
 
 .stack__card-icon {
     font-size: 1.5rem;
-    margin-bottom: var(--spacing-sm);
+    color: #818cf8;
 }
 
 .stack__card-title {
     font-size: 1.1rem;
     font-weight: 700;
-    margin-bottom: var(--spacing-md);
 }
 
 .stack__tags {
@@ -51,21 +58,24 @@
 .stack__tag {
     background: var(--color-surface-2);
     color: var(--color-text-heading-2);
-    padding: 4px 10px;
+    padding: 6px 10px;
     border-radius: var(--radius-sm);
-    font-size: 0.7rem;
+    font-size: 0.85rem;
     font-family: var(--font-mono);
+    border: 1px solid rgba(129, 140, 248, 0.15);
 }
 
 .stack__card-practice {
     padding-top: var(--spacing-md);
     background-color: var(--color-surface-2);
-    padding: var(--spacing-sm);
+    padding: var(--spacing-md);
     color: var(--color-text-heading-2);
+    border-left: 2px solid #818cf8;
+    margin-top: auto;
 }
 
 .stack__card-practice h4 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-style: italic;
     color: var(--color-text-heading);
     margin-bottom: var(--spacing-xs);
