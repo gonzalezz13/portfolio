@@ -17,6 +17,7 @@
   --color-text-muted: #85898d;
 
   --color-neutral: #8B949E;
+  --color-neutral-2: #747981;
 
   --font-heading: 'Space Grotesk', sans-serif;
   --font-body: 'Inter', sans-serif;
@@ -52,6 +53,7 @@
 
 html {
   scroll-behavior: smooth;
+  cursor: default;
 }
 
 body {

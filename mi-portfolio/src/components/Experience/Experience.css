@@ -23,6 +23,7 @@
     transition: border-color var(--transition);
     display: flex;
     flex-direction: column;
+    gap: var(--spacing-md);
 }
 
 .experience__card:hover {
@@ -34,7 +35,8 @@
     display: flex;
     align-items: center;
     gap: var(--spacing-sm);
-    margin-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--color-surface-2);
+    padding-bottom: var(--spacing-sm);
 }
 
 .experience__card-icon {
@@ -45,4 +47,76 @@
 .experience__card-title {
     font-size: 1.1rem;
     font-weight: 700;
+}
+
+.experience__info {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-bg);
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-sm);
+    gap: var(--spacing-xs);
+}
+
+.experience__info-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--spacing-sm);
+}
+
+.experience__info-time {
+    background-color: var(--color-surface-2);
+    color: var(--color-neutral-2);
+    font-size: 0.9rem;
+    line-height: 1.4;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-mono);
+    align-self: flex-end;
+}
+
+.experience__info>p:nth-child(2) {
+    margin-top: var(--spacing-sm);
+    font-size: 0.85rem;
+    color: var(--color-muted);
+    font-style: italic;
+    font-family: var(--font-mono);
+}
+
+.experience__info>p:nth-child(3) {
+    width: fit-content;
+    display: inline-block;
+    color: var(--color-secondary);
+    background-color: rgb(from var(--color-primary) r g b / 15%);
+    font-weight: 625;
+    font-size: 0.90em;
+    margin-top: var(--spacing-xs);
+    padding: 0 var(--spacing-md) 0 var(--spacing-xs);
+    letter-spacing: 0.04em;
+}
+
+.experience__info>p:nth-child(4) {
+    color: #ffffff;
+    margin-top: var(--spacing-sm);
+}
+
+.experience__info-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-xs);
+    margin-top: var(--spacing-md);
+}
+
+.experience__tag {
+    background: var(--color-surface-2);
+    color: var(--color-text-heading-2);
+    padding: 3px 6px;
+    font-size: 0.85rem;
+    font-family: var(--font-mono);
+    border: 1px solid rgba(129, 140, 248, 0.15);
+}
+
+.experience__info-time--freelance {
+    color: #4ade80;
+    background-color: rgba(74, 222, 128, 0.1);
 }
