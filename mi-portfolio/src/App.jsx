@@ -4,6 +4,8 @@ import Hero from './components/Hero/Hero'
 import Profile from './components/Profile/Profile'
 import Stack from './components/Stack/Stack'
 import Experience from './components/Experience/Experience'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
         <Profile />
         <Stack />
         <Experience />
+        <Contact />
       </main>
+      <Footer />
     </div>
   )
 }

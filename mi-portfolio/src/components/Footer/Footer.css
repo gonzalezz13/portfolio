@@ -1,0 +1,31 @@
+footer {
+    background-color: var(--color-surface);
+    padding: var(--spacing-xl) 0;
+    color: var(--color-text-heading);
+    font-family: var(--font-heading);
+    letter-spacing: 0.03em;
+}
+
+.footer_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_subtitle {
+    color: var(--color-text-heading-2);
+    font-size: 0.825rem;
+}
+
+.footer_extra {
+    display: flex;
+    gap: var(--spacing-md);
+}
+
+.footer_extra a {
+    color: var(--color-secondary);
+}
+
+.footer_extra span {
+    color: var(--color-neutral-2);
+}

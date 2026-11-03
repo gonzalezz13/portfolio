@@ -4,7 +4,7 @@ import { FaCode, FaDesktop, FaDatabase, FaTools } from 'react-icons/fa'
 function Stack() {
     return (
         <section className="stack section" id="habilidades">
-            <div class="container">
+            <div className="container">
                 <span className="section-label">02 // STACK & METODOLOGÍA</span>
                 <h2 className="section-title">Habilidades técnicas</h2>
                 <p className="stack__intro">

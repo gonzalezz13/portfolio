@@ -5,7 +5,7 @@ import { BsPatchCheck, BsCheck2 } from 'react-icons/bs'
 function Experience() {
     return (
         <section className="experience section" id="experiencia">
-            <div class="container">
+            <div className="container">
                 <span className="section-label">04 // TRAYECTORIA</span>
                 <h2 className="section-title">Experiencia y formación</h2>
                 <p className="experience__intro">
