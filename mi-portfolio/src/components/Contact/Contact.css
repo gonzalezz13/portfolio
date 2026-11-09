@@ -1,0 +1,5 @@
+.contact__intro {
+    max-width: 600px;
+    margin-bottom: var(--spacing-xl);
+    font-size: 0.95rem;
+}
