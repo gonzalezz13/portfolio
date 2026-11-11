@@ -10,7 +10,12 @@ function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        emailjs.sendForm('service_portfolio', 'template_mp0x853', formRef.current, 'IOGdz3t_7IHpliM2J')
+        emailjs.sendForm(
+            import.meta.env.VITE_EMAILJS_SERVICE_ID,
+            import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+            formRef.current,
+            import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        )
             .then(() => {
                 formRef.current.reset();
                 toast.success('¡Mensaje enviado!')
