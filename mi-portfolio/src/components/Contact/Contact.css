@@ -3,3 +3,148 @@
     margin-bottom: var(--spacing-xl);
     font-size: 0.95rem;
 }
+
+.contact__layout {
+    display: flex;
+    gap: var(--spacing-xl);
+    align-items: flex-start;
+}
+
+.contact__info {
+    flex: 1;
+}
+
+.contact__form-wrapper {
+    flex: 1;
+}
+
+.contact__space {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+    gap: var(--spacing-md);
+}
+
+.contact__space-icon {
+    color: var(--color-secondary);
+    background-color: rgb(from var(--color-primary) r g b / 15%);
+    padding: var(--spacing-sm);
+    font-size: 1.3rem;
+}
+
+.contact__profile {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-surface);
+    padding: var(--spacing-md);
+    max-width: 500px;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-xl);
+}
+
+.contact__profile-links {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+}
+
+.contact__profile-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--color-border);
+}
+
+.contact__cv {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-md);
+    letter-spacing: 0.005em;
+    font-family: var(--font-mono);
+    margin-top: var(--spacing-xl);
+}
+
+.contact__cv-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--color-tertiary);
+}
+
+/*FORMULARIO DE CONTACTO*/
+.contact__form {
+    width: 100%;
+    padding: var(--spacing-md);
+    display: grid;
+    gap: var(--spacing-sm);
+    background-color: var(--color-surface);
+    border-radius: 12px;
+}
+
+.fila {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-sm);
+}
+
+.campo {
+    display: grid;
+    gap: 6px;
+}
+
+label {
+    font-family: var(--font-mono);
+    color: white;
+    font-weight: 700;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px 12px;
+    font: inherit;
+    font-size: 14px;
+    color: #e6edf3;
+    background: #050c12;
+    border: 1px solid #16222b;
+    border-radius: 4px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #4a5a66;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #3b8bff;
+}
+
+textarea {
+    resize: none;
+    min-height: 110px;
+}
+
+button {
+    padding: 11px 22px;
+    font: inherit;
+    font-weight: 500;
+    color: #fff;
+    background: #3b8bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #2f74da;
+}
+
+@media (max-width: 480px) {
+    .fila {
+        grid-template-columns: 1fr;
+    }
+}
