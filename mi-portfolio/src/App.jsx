@@ -7,9 +7,12 @@ import Experience from './components/Experience/Experience'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 
+import { Toaster } from 'react-hot-toast'
+
 function App() {
   return (
     <div>
+      <Toaster />
       <Navbar />
       <main>
         <Hero />

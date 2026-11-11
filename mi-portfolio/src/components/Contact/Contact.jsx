@@ -1,8 +1,25 @@
 import './Contact.css'
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import toast from 'react-hot-toast';
 import { MdOutlineMail, MdOutlineLocalPhone } from "react-icons/md";
 import { LuMapPin } from "react-icons/lu";
 
 function Contact() {
+    const formRef = useRef();
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        emailjs.sendForm('service_portfolio', 'template_mp0x853', formRef.current, 'IOGdz3t_7IHpliM2J')
+            .then(() => {
+                formRef.current.reset();
+                toast.success('¡Mensaje enviado!')
+            })
+            .catch(() => {
+                toast.error('Error al enviar. Inténtalo de nuevo.')
+            })
+    }
+
     return (
         <section className="contact section" id="contact">
             <div className="container">
@@ -53,7 +70,7 @@ function Contact() {
                         </div>
                     </div>
                     <div className="contact__form-wrapper">
-                        <form action="/enviar" method="post" className="contact__form">
+                        <form ref={formRef} onSubmit={handleSubmit} className="contact__form">
                             <div className="fila">
                                 <div className="campo">
                                     <label htmlFor="nombre">Nombre o Empresa</label>
