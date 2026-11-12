@@ -26,7 +26,7 @@ function Contact() {
     }
 
     return (
-        <section className="contact section" id="contact">
+        <section className="contact section" id="contacto">
             <div className="container">
                 <span className="section-label">05 // COMUNICACIÓN</span>
                 <h2 className="section-title">Contacto</h2>
@@ -96,7 +96,11 @@ function Contact() {
                                 <textarea id="mensaje" name="mensaje" rows="5" placeholder="Detalla tu propuesta, requerimientos o vacante..." required></textarea>
                             </div>
 
-                            <button type="submit">Enviar mensaje</button>
+                            <div className="contact__form-actions">
+                                <button type="submit">Enviar mensaje</button>
+                                <span className="contact__form-note">Sin spam ni trackers</span>
+                            </div>
+
                         </form>
                     </div>
 

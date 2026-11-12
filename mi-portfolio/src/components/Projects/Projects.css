@@ -1,0 +1,24 @@
+.projects {
+    border-bottom: 1px solid var(--color-surface-2);
+}
+
+.projects__intro {
+    max-width: 600px;
+    margin-bottom: var(--spacing-xl);
+    font-size: 0.95rem;
+}
+
+.projects__start {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects__counter {
+    padding-top: 1rem;
+    font-family: var(--font-mono);
+}
+
+.projects__signs {
+    color: var(--color-tertiary);
+    margin-right: var(--spacing-sm);
+}

@@ -127,6 +127,19 @@ textarea {
     min-height: 110px;
 }
 
+.contact__form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: var(--spacing-sm);
+}
+
+.contact__form-note {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+}
+
 button {
     padding: 11px 22px;
     font: inherit;
@@ -142,6 +155,7 @@ button {
 button:hover {
     background: #2f74da;
 }
+
 
 @media (max-width: 480px) {
     .fila {

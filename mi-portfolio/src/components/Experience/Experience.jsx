@@ -85,7 +85,7 @@ function Experience() {
                         </div>
                         <div className="experience__info">
                             <div className="experience__info-title">
-                                <h4>Ciberseguridad Avanzada Entornos de las Tecnologías de la Operación</h4>
+                                <h4>Ciberseguridad Avanzada en Entornos de las Tecnologías de la Operación</h4>
                                 <span className="experience__info-moment">Agosto 2025</span>
                             </div>
                             <div className="experience__info-title">
