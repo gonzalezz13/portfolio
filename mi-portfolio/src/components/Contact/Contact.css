@@ -163,6 +163,21 @@ button:disabled {
 }
 
 
+@media (max-width: 860px) {
+    .contact__layout {
+        flex-direction: column;
+        gap: var(--spacing-xl);
+    }
+
+    .contact__form {
+        max-width: 100%;
+    }
+
+    .contact__profile {
+        max-width: 100%;
+    }
+}
+
 @media (max-width: 480px) {
     .fila {
         grid-template-columns: 1fr;

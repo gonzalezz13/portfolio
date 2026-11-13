@@ -150,3 +150,27 @@
     display: flex;
     gap: var(--spacing-md);
 }
+
+@media (max-width: 640px) {
+    .hero__title {
+        font-size: 2.3rem;
+        letter-spacing: -0.05rem;
+    }
+
+    .hero__badge {
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero__actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero__actions .btn {
+        width: 100%;
+        text-align: center;
+    }
+}

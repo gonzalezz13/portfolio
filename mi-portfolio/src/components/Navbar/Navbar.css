@@ -68,6 +68,7 @@
     color: var(--color-text);
     font-size: 0.85rem;
     transition: color var(--transition);
+    white-space: nowrap;
 }
 
 .navbar__links a:hover {
@@ -82,25 +83,29 @@
 }
 
 @media (max-width: 640px) {
+    .navbar__inner {
+        gap: var(--spacing-sm);
+    }
+
     .navbar__name {
         display: none;
     }
 
     .navbar__links {
-        gap: var(--spacing-md);
+        gap: var(--spacing-xs);
+        overflow-x: auto;
+        white-space: nowrap;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+        padding: 2px 0;
+    }
+
+    .navbar__links::-webkit-scrollbar {
+        display: none;
     }
 
     .navbar__links a {
-        font-size: 0.82rem;
-    }
-}
-
-@media (max-width: 440px) {
-    .navbar__links {
-        gap: var(--spacing-sm);
-    }
-
-    .navbar__links a {
-        font-size: 0.78rem;
+        font-size: 0.8rem;
+        padding: 4px 6px;
     }
 }

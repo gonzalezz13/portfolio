@@ -149,3 +149,10 @@
     color: var(--color-extra);
     background-color: rgba(74, 222, 128, 0.1);
 }
+
+@media (max-width: 900px) {
+    .experience__grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+}

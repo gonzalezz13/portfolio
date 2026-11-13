@@ -29,3 +29,16 @@ footer {
 .footer_extra span {
     color: var(--color-neutral-2);
 }
+
+@media (max-width: 640px) {
+    .footer_inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-md);
+    }
+
+    .footer_extra {
+        flex-direction: column;
+        gap: var(--spacing-xs);
+    }
+}
