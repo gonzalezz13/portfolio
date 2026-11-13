@@ -1,5 +1,5 @@
 import './Contact.css'
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast';
 import { MdOutlineMail, MdOutlineLocalPhone } from "react-icons/md";
@@ -7,9 +7,12 @@ import { LuMapPin } from "react-icons/lu";
 
 function Contact() {
     const formRef = useRef();
+    const [isSending, setIsSending] = useState(false);
 
     const handleSubmit = (e) => {
-        e.preventDefault()
+        e.preventDefault();
+        setIsSending(true);
+
         emailjs.sendForm(
             import.meta.env.VITE_EMAILJS_SERVICE_ID,
             import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
@@ -18,11 +21,14 @@ function Contact() {
         )
             .then(() => {
                 formRef.current.reset();
-                toast.success('¡Mensaje enviado!')
+                toast.success('¡Mensaje enviado!');
             })
             .catch(() => {
-                toast.error('Error al enviar. Inténtalo de nuevo.')
+                toast.error('Error al enviar. Inténtalo de nuevo.');
             })
+            .finally(() => {
+                setIsSending(false);
+            });
     }
 
     return (
@@ -97,7 +103,9 @@ function Contact() {
                             </div>
 
                             <div className="contact__form-actions">
-                                <button type="submit">Enviar mensaje</button>
+                                <button type="submit" disabled={isSending}>
+                                    {isSending ? 'Enviando...' : 'Enviar mensaje'}
+                                </button>
                                 <span className="contact__form-note">Sin spam ni trackers</span>
                             </div>
 

@@ -156,6 +156,12 @@ button:hover {
     background: #2f74da;
 }
 
+button:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+    background: #3b8bff;
+}
+
 
 @media (max-width: 480px) {
     .fila {

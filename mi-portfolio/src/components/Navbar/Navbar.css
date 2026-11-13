@@ -73,3 +73,34 @@
 .navbar__links a:hover {
     color: var(--color-text-heading);
 }
+
+/* RESPONSIVE NAVBAR (MÓVIL Y TABLET) */
+@media (max-width: 860px) {
+    .navbar__status {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .navbar__name {
+        display: none;
+    }
+
+    .navbar__links {
+        gap: var(--spacing-md);
+    }
+
+    .navbar__links a {
+        font-size: 0.82rem;
+    }
+}
+
+@media (max-width: 440px) {
+    .navbar__links {
+        gap: var(--spacing-sm);
+    }
+
+    .navbar__links a {
+        font-size: 0.78rem;
+    }
+}
