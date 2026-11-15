@@ -80,6 +80,8 @@ function Contact() {
                             <a
                                 href="/CV_Vicente_Arnal.pdf"
                                 download="CV_Vicente_Arnal.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="btn-primary"
                             >
                                 Descargar CV (PDF)
