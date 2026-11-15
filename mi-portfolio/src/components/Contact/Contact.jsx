@@ -77,7 +77,13 @@ function Contact() {
 
                         <div className="contact__cv">
                             <span className="contact__cv-dot"></span>
-                            <p>CV en formato PDF disponible previa solicitud vía formulario</p>
+                            <a
+                                href="/CV_Vicente_Arnal.pdf"
+                                download="CV_Vicente_Arnal.pdf"
+                                className="btn-primary"
+                            >
+                                Descargar CV (PDF)
+                            </a>
                         </div>
                     </div>
                     <div className="contact__form-wrapper">
