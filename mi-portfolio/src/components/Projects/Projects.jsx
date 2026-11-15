@@ -82,7 +82,7 @@ function Projects() {
                         <img src="/preview_velas.png" alt="Preview Tienda Shopify Velas de Llum"></img>
                         <div className="projects__grid-contribution">
                             <p className="projects__grid-note">Valor aportado:</p>
-                            <p className="projects__grid-result">Traslado de especificaciones comerciales reales a una plataforma autosuficiente y totalmente operativa como Shopify.</p>
+                            <p className="projects__grid-result">Traslado de especificaciones comerciales reales a una plataforma autosuficiente y totalmente operativa.</p>
                         </div>
                     </div>
                     <div className="projects__grid-second">

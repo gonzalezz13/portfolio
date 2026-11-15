@@ -167,6 +167,7 @@ button:disabled {
     .contact__layout {
         flex-direction: column;
         gap: var(--spacing-xl);
+        align-items: center;
     }
 
     .contact__form {
@@ -175,6 +176,11 @@ button:disabled {
 
     .contact__profile {
         max-width: 100%;
+    }
+
+    .contact__form-note {
+        margin-left: var(--spacing-lg);
+        font-size: 0.7rem;
     }
 }
 
