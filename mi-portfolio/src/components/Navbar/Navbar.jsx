@@ -5,8 +5,8 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar__inner container">
                 <div className="navbar__brand">
-                    <span className="navbar__logo">VG</span>
-                    <span className="navbar__name">Vicente Arnal González</span>
+                    <span className="navbar__logo"><img src="/Logo_VG.png" /></span>
+                    <span className="navbar__name">VICENTE ARNAL GONZÁLEZ</span>
                 </div>
                 <div className="navbar__status">
                     <span className="navbar__status-dot"></span>
